@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
+    "deploy": "npm run generate && gh-pages -d dist",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
@@ -17,7 +18,8 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.2",
     "cz-conventional-changelog": "^3.3.0",
-    "cz-conventional-changelog-zh": "^0.0.2"
+    "cz-conventional-changelog-zh": "^0.0.2",
+    "gh-pages": "^6.2.0"
   },
   "config": {
     "commitizen": {
