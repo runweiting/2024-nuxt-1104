@@ -16,11 +16,12 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.2",
-    "cz-conventional-changelog": "^3.3.0"
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-conventional-changelog-zh": "^0.0.2"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog-zh"
     }
   }
 }
